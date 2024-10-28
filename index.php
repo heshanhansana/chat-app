@@ -49,6 +49,38 @@
 
             </div>
 
+            <div class="container_1">
+                <form class="needs-validation" novalidate action="students.php" method="POST">
+                <div class="form-row">
+
+                    <div class="col-md-4 mb-3">
+                        <input type="text" name="stname" placeholder="Name:" class="form-control"/></div>
+
+                    <div class="col-md-3 mb-3">
+                        <input type="number" name="stnic" placeholder="NIC Number" class="form-control"/></div>
+
+                    <div class="col-md-5 mb-3">
+                        <textarea class="form-control" rows="1" name="address" placeholder="Address"></textarea></div>
+
+                </div>
+                        
+                <div class="form-row">
+
+                    <div class="col-md-2 mb-3">
+                        <input type="number" name="batch" placeholder="A/L Year:" class="form-control"/></div>           
+
+                    <div class="col-md-3 mb-3">
+                        <input type="number" name="phone" placeholder="Mobile Number" class="form-control"/></div>
+
+                    <div class="col-md-3 mb-3">
+                        <input type="submit" name="add" value="Add" class="btn btn-primary"/></div>
+
+                </div> 
+                
+            </form>
+            </div>
+
+
         </div>
     </body>
 </html>
