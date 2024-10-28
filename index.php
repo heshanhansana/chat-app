@@ -1,11 +1,3 @@
-<?php
-    // database connection
-    include('database.php');
-
-?>
-
-
-
 <html>
 
     <head>
@@ -30,11 +22,8 @@
             <div class="body">
 
                 <?php
-                    if(isset($_POST["send"])){
-                        $new_message = $_POST["new-message"];
-                        echo "<div class='alert alert-success'>".$new_message."</div>";
-                    }
-
+                    // display previous chat
+                    include('show_history.php');
                 ?>
 
             </div>
@@ -43,7 +32,7 @@
             <!-- user input display area -->
             <div class="user_input">
 
-                <form action="index.php" method="post">
+                <form action="send.php" method="post">
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">New message : </label>
                         <div class="col-sm-7">
@@ -55,13 +44,10 @@
                         </div>
                     </div>
                 </form>
-
+                
             </div>
 
-            <hr>
-                
-
-
+           
         </div>
     </body>
 </html>
