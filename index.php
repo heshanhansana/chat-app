@@ -23,8 +23,9 @@
 
                 <?php
                     // display previous chat
-                    include('show_history.php');
+                    include('previous_chat.php');
                 ?>
+                
 
             </div>
 
@@ -40,14 +41,14 @@
                         </div>
 
                         <div class="col-sm-3">
-                            <input type="submit" value="Send" name="send" class="btn btn-success" maxlength="50">
+                            <input type="submit" value="Send" name="send" class="btn btn-success">
                         </div>
                     </div>
                 </form>
                 
             </div>
-
            
         </div>
+        
     </body>
 </html>
