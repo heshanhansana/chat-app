@@ -40,7 +40,7 @@
                         </div>
 
                         <div class="col-sm-3">
-                            <input type="submit" value="Send" name="send" class="btn btn-success">
+                            <input type="submit" value="Send" name="send" class="btn btn-success" maxlength="50">
                         </div>
                     </div>
                 </form>
