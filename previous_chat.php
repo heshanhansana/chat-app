@@ -16,7 +16,7 @@
                     <?php foreach ($messages as $row): ?>
                         <tr>
                             <td><?php echo $row['message']; ?></td>
-                            <td><?php echo "<a href='delete.php?id=" . $row["id"] . "'><input type='button' value='X' class='btn btn-outline-dark'> </a>" ?></td>
+                    <!--        <td><?php echo "<a href='delete.php?id=" . $row["id"] . "'><input type='button' value='X' class='btn btn-outline-dark'> </a>" ?></td>   -->
                         </tr>
                     <?php endforeach; ?>
                 </tbody>

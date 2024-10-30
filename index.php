@@ -15,12 +15,12 @@
 
             <div class="headder">
                 <h1>Chat-App</h1>
-                <p>Version-01</p>
+                <p>Version 1.3</p>
             </div>
 
 
             <!-- Message display area -->
-            <div class="body">
+            <div class="body" id="history">
 
                 <?php
                     // display previous chat
@@ -38,7 +38,7 @@
                     <div class="form-group row">
                         <label class="col-sm-2 col-form-label">New message : </label>
                         <div class="col-sm-7">
-                            <input type="text" name="new-message" class="form-control" id="inputPassword" placeholder="Message">
+                            <input type="text" name="new-message" class="form-control" id="myInput" placeholder="Message">
                         </div>
 
                         <div class="col-sm-3">
@@ -50,6 +50,6 @@
             </div>
            
         </div>
-        
+
     </body>
 </html>
