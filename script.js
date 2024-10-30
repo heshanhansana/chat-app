@@ -4,7 +4,7 @@ const resetIdleTimer = () => {
     clearTimeout(idleTimeout);
     idleTimeout = setTimeout(function() {
         window.location.reload();
-    }, 5000); // 10 seconds of inactivity
+    }, 3000); // 3 seconds of inactivity
 };
 
 document.addEventListener('mousemove', resetIdleTimer);
