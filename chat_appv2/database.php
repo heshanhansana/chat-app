@@ -1,7 +1,7 @@
 // database.php
 <?php
 $host = 'localhost';
-$dbname = 'chat_appv2';
+$dbname = 'chat_app_v2';
 $username = 'root';
 $password = '';
 
